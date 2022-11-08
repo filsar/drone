@@ -14,7 +14,7 @@ namespace NetCoreClient.Sensors
 
         public double Altitude()
         {
-            return new Altitude(Random.NextDouble()*Random.Next(100)).AltitudeValue;
+            return new Altitude(Random.NextDouble()*Random.Next(100)).Value;
         }
 
         public string ToJson()

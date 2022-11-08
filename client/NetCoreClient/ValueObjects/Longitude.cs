@@ -1,16 +1,16 @@
 ﻿namespace NetCoreClient.ValueObjects
 {
-    internal class Altitude
+    internal class Longitude
     {
         public string Name { get; private set; }
         public double Value { get; private set; }
         public DateTime Date { get; private set; }
 
-        public Altitude(double value)
+        public Longitude(double value)
         {
-            this.Name = "altitude";
-            this.Value = value;
-            this.Date = DateTime.Now;
+            this.Name = "longitude";
+            this.Value = value  ;
+            this.Date = DateTime.Now ;
         }
 
     }

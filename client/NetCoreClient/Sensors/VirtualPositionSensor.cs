@@ -12,14 +12,20 @@ namespace NetCoreClient.Sensors
             Random = new Random();
         }
 
-        public Position Position()
+        public double Longitude()
         {
-            return new Position(Random.NextDouble()*Random.Next(59), Random.NextDouble()*Random.Next(59));
+            return new Longitude(Random.NextDouble()*Random.Next(59)).Value;
+        }
+
+        public double Latitude()
+        {
+            return new Latitude(Random.NextDouble() * Random.Next(59)).Value;
         }
 
         public string ToJson()
         {
-            return JsonSerializer.Serialize(Position());
+            Object[] Position = { new Longitude(Random.NextDouble() * Random.Next(59)), new Latitude(Random.NextDouble() * Random.Next(59)) };
+            return JsonSerializer.Serialize(Position);
         }
     }
 }

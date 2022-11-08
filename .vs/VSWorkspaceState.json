@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\iot-protocols",
+    "\\iot-protocols\\client",
+    "\\iot-protocols\\client\\NetCoreClient"
   ],
-  "SelectedNode": "\\server",
+  "SelectedNode": "\\iot-protocols\\client\\NetCoreClient\\NetCoreClient.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -9,9 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node": "^19.0.0",
-    "pg": "^8.8.0",
-    "postgres": "^3.3.1",
     "restify": "^8.6.0"
   }
 }

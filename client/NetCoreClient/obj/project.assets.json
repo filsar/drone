@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Filippo\\source\\repos\\drone\\client\\NetCoreClient\\NetCoreClient.csproj",
+      "projectUniqueName": "C:\\Users\\Filippo\\Desktop\\repo protocolli iot\\Drone\\client\\NetCoreClient\\NetCoreClient.csproj",
       "projectName": "NetCoreClient",
-      "projectPath": "C:\\Users\\Filippo\\source\\repos\\drone\\client\\NetCoreClient\\NetCoreClient.csproj",
+      "projectPath": "C:\\Users\\Filippo\\Desktop\\repo protocolli iot\\Drone\\client\\NetCoreClient\\NetCoreClient.csproj",
       "packagesPath": "C:\\Users\\Filippo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Filippo\\source\\repos\\drone\\client\\NetCoreClient\\obj\\",
+      "outputPath": "C:\\Users\\Filippo\\Desktop\\repo protocolli iot\\Drone\\client\\NetCoreClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Filippo\\AppData\\Roaming\\NuGet\\NuGet.Config",

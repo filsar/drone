@@ -1,25 +1,26 @@
 ﻿using NetCoreClient.ValueObjects;
 using System.Text.Json;
 
+
 namespace NetCoreClient.Sensors
 {
-    class VirtualSpeedSensor : ISpeedSensorInterface, ISensorInterface
+    class VirtualChargeSensor : IChargeSensorInterface, ISensorInterface
     {
         private readonly Random Random;
 
-        public VirtualSpeedSensor()
+        public VirtualChargeSensor()
         {
             Random = new Random();
         }
 
-        public int Speed()
+        public int Charge()
         {
-            return new Speed(Random.Next(100)).Value;
+            return new Charge(Random.Next(100)).Value;
         }
 
         public string ToJson()
         {
-            return JsonSerializer.Serialize(new Speed(Random.Next(100)));
+            return JsonSerializer.Serialize(new Charge(Random.Next(100)));
         }
     }
 }

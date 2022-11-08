@@ -4,6 +4,7 @@ namespace NetCoreClient.Sensors
 {
     interface IPositionSensorInterface
     {
-        Position Position();
+        double Longitude();
+        double Latitude();
     }
 }

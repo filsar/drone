@@ -6,6 +6,7 @@ List<ISensorInterface> sensors = new();
 sensors.Add(new VirtualSpeedSensor());
 sensors.Add(new VirtualPositionSensor());
 sensors.Add(new VirtualAltitudeSensor());
+sensors.Add(new VirtualChargeSensor());
 
 // define protocol
 ProtocolInterface protocol = new Http("http://localhost:3000/drones/123");
