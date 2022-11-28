@@ -94,3 +94,5 @@ C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\obj\Debu
 C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\obj\Debug\net6.0\NetCoreClient.pdb
 C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\obj\Debug\net6.0\NetCoreClient.genruntimeconfig.cache
 C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\obj\Debug\net6.0\ref\NetCoreClient.dll
+C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\bin\Debug\net6.0\MQTTnet.Extensions.ManagedClient.dll

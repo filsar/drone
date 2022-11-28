@@ -27,5 +27,10 @@ namespace NetCoreClient.Sensors
             Object[] Position = { new Longitude(Random.NextDouble() * Random.Next(59)), new Latitude(Random.NextDouble() * Random.Next(59)) };
             return JsonSerializer.Serialize(Position);
         }
+
+        public string GetSlug()
+        {
+            return "position";
+        }
     }
 }

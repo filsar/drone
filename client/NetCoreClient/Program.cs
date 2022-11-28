@@ -9,7 +9,7 @@ sensors.Add(new VirtualAltitudeSensor());
 sensors.Add(new VirtualChargeSensor());
 
 // define protocol
-ProtocolInterface protocol = new Http("http://localhost:3000/drones/123");
+IProtocolInterface protocol = new Mqtt("127.0.0.1");
 
 // send data to server
 while (true)
@@ -18,11 +18,11 @@ while (true)
     {
         var sensorValue = sensor.ToJson();
 
-        protocol.Send(sensorValue);
+        protocol.Send(sensorValue, sensor.GetSlug());
 
-        Console.WriteLine("Data sent: " + sensorValue);
+        Console.WriteLine("Data sent: " + sensorValue + sensor.GetSlug());
 
         Thread.Sleep(1000);
     }
-
+        
 }

@@ -21,5 +21,10 @@ namespace NetCoreClient.Sensors
         {
             return JsonSerializer.Serialize(new Altitude(Random.NextDouble() * Random.Next(100)));
         }
+
+        public string GetSlug()
+        {
+            return "altitude";
+        }
     }
 }

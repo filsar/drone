@@ -22,5 +22,9 @@ namespace NetCoreClient.Sensors
         {
             return JsonSerializer.Serialize(new Charge(Random.Next(100)));
         }
+        public string GetSlug()
+        {
+            return "charge";
+        }
     }
 }

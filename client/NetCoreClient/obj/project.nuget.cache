@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kc55XBE3gI31/6rhPHQzQOLWZFPvluRgiMx/cUCg3JARRIrEgkqv79eKMapDyEtHxRNsB+tVft8czb8+DJQYvw==",
+  "dgSpecHash": "+7R3lojMcXnZxFzD76PX92DVI3X3+lkJJpQjndO8wehbw9mwd7O9S/dlDRwOGM+FOLmiygyRNkh1Zy61bnd5bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Filippo\\Desktop\\repo protocolli iot\\Drone\\client\\NetCoreClient\\NetCoreClient.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\Filippo\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
     "C:\\Users\\Filippo\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\Filippo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Filippo\\.nuget\\packages\\mqttnet\\4.1.3.436\\mqttnet.4.1.3.436.nupkg.sha512",
+    "C:\\Users\\Filippo\\.nuget\\packages\\mqttnet.extensions.managedclient\\4.1.3.436\\mqttnet.extensions.managedclient.4.1.3.436.nupkg.sha512",
     "C:\\Users\\Filippo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Filippo\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Filippo\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
