@@ -1,4 +1,6 @@
-﻿using NetCoreClient.Sensors;
+﻿using System;
+using System.Collections.Generic;
+using NetCoreClient.Sensors;
 using NetCoreClient.Protocols;
 
 // define sensors
@@ -10,6 +12,7 @@ sensors.Add(new VirtualChargeSensor());
 
 // define protocol
 IProtocolInterface protocol = new Mqtt("127.0.0.1");
+protocol.Subscribe("commands");
 
 // send data to server
 while (true)
@@ -24,5 +27,5 @@ while (true)
 
         Thread.Sleep(1000);
     }
-        
+
 }

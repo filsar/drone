@@ -3,9 +3,12 @@
     "",
     "\\client",
     "\\client\\NetCoreClient",
+    "\\client\\NetCoreClient\\obj",
     "\\client\\NetCoreClient\\Protocols",
+    "\\client\\NetCoreClient\\Sensors",
+    "\\client\\NetCoreClient\\ValueObjects",
     "\\Server"
   ],
-  "SelectedNode": "\\Server\\index.js",
+  "SelectedNode": "\\client\\NetCoreClient\\NetCoreClient.sln",
   "PreviewInSolutionExplorer": false
 }

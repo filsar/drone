@@ -96,3 +96,6 @@ C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\obj\Debu
 C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\obj\Debug\net6.0\ref\NetCoreClient.dll
 C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\bin\Debug\net6.0\MQTTnet.dll
 C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\bin\Debug\net6.0\MQTTnet.Extensions.ManagedClient.dll
+C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Filippo\Desktop\repo protocolli iot\Drone\client\NetCoreClient\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
